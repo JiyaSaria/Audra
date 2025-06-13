@@ -67,6 +67,7 @@ nav ul{
 }
 #myProgressBar{
     width: 70vw;
+    cursor: pointer;
 }
 .songItemContainer{
     margin-top: 40px;
@@ -95,15 +96,16 @@ nav ul{
 .songListPlay i{
     cursor: pointer;
 }
-.songInfo{
+#songInfo{
     position: absolute;
     left:15vw;
     color:#f8cfd1;
+    font-family: 'Varela Round', sans-serif;
 }
-.gif{
+#gif{
     position:absolute;
     right: 12vw;
     opacity: 0;
-    transition: opacity is ease-in;
+    transition: opacity 0.5s ease-in;
 
 }
